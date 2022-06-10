@@ -5,7 +5,7 @@
 $ cd .../ejercicios
 $ docker run -it --rm -d -p 8080:80 --name bestpageever -v ejercicio01:/usr/share/nginx/html nginx:1.22
 ```
-### Build iamge and run
+### Build image and run
 ```
 $ cd .../ejercicios/ejercicio01
 $ docker build -t ejercicio01 .
