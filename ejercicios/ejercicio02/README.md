@@ -1,6 +1,6 @@
 # Ejercicio 02
 
-## Descarga de imagen original y p+ush de imagen a repo propio
+## Descarga de imagen original y push de imagen a repo propio
 
 ```
 docker login
