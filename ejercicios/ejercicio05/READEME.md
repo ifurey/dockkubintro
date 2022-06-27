@@ -1,7 +1,7 @@
 # Ejercicio 05
 
 ## HEALTHCHECK
-Determina como testear un contenedor para determinar el status
+Define como testear un contenedor para determinar el status
 
 ### Usage:
 
