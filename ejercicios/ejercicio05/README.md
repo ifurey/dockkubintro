@@ -27,7 +27,7 @@ The first 4096 bytes of stdout and stderr from the <command> are stored and can 
 When the health status of a container changes, a health_status event is generated with the new status.
 
 ## ONBUILD
-Adds to the image a trigger instruction to be executed at a later time, when the image is used as the base for another build.
+  Agrega a la imagen una instruccion para que se triggerea posteriormente cuando la imagen es usada como base.
 
 ### Usage:
 
@@ -41,7 +41,7 @@ Triggers are inherited by the "child" build only. In other words, they are not i
 The ONBUILD instruction may not trigger FROM, MAINTAINER, or ONBUILD instructions.
 
 ## VOLUME
-Creates a mount point with the specified name and marks it as holding externally mounted volumes from native host or other containers.
+  Crea un mounting point como volumen externo
 
 ### Usage:
 
