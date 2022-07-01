@@ -3,7 +3,7 @@
 ## ¿Cuántos contenedores se están ejecutando?
 Dos contenedores:
 * uno con imagen `nicopaez/jobvacancy-ruby:1.3.0`
-* otro con imagen `postgres`
+* otro con imagen `postgres:latest`
 
 ```
 $ docker ps
@@ -17,7 +17,7 @@ dc21d5725a48   nicopaez/jobvacancy-ruby:1.3.0   "/jobvacancy/start_a…"   18 mi
 ya respondido arriba
 
 ## ¿Puedes leer el docker-compose-jobvacancy.yml y describir lo que hace cada una de sus lineas?
-Going line by line
+### Going line by line
 
 
 
